@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "feature-architecture": {
+      "factory": "./src/generators/feature-architecture",
+      "schema": "./src/generators/schema.json",
+      "description": "feature-architecture generator"
+    }
+  }
+}

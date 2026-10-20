@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "$id": "FeatureArchitecture",
+  "title": "Feature Architecture Generator",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Target application name",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What feature name would you like to use?"
+    }
+  },
+"required": ["name", "project"]
+}
