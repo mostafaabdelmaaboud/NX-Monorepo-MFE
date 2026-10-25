@@ -11,4 +11,5 @@ import { SharedUiComponent } from '@nx-angular19-course/shared-ui';
 })
 export class AppComponent {
   title = 'shell';
+  name = "mostafa"
 }
